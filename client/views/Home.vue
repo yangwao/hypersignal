@@ -2,7 +2,7 @@
   <div class="page">
     <counter></counter>
     <p>
-      To get started, edit files in <code>./client</code> and save.
+      To get started, dit fliees in <code>./client</code> and be safe.
     </p>
   </div>
 </template>

@@ -6,23 +6,23 @@
   "scripts": {
     "test": "testcafe all test/e2e/index.js --app \"npm run dev\" --app-init-delay 10000",
     "build": "webpack --config build/webpack.prod.js",
-    "dev": "node build/server.js"  },
+    "dev": "node build/server.js"
+  },
   "author": "Matej Nemcek <ybdaba@gmail.com>",
   "license": "MIT",
-  "xo": {
-    "extends": "./.eslintrc",
-    "esnext": true,
-    "envs": [
-      "browser"
-    ]
-  },
+  "homepage": "https://github.com/yangwao/hypersignal",
   "dependencies": {
     "babel-runtime": "^6.18.0",
     "promise-polyfill": "^6.0.2",
     "vue": "^2.2.0",
     "vue-router": "^2.0.0",
+    "vue2-leaflet": "0.0.49",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^4.0.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/yangwao/hypersignal.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
