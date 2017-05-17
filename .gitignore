@@ -58,5 +58,4 @@ typings/
 .env
 
 .DS_Store
-/app/index.html
-/app/assets
+/dist

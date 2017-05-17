@@ -6,10 +6,7 @@
   "scripts": {
     "test": "testcafe all test/e2e/index.js --app \"npm run dev\" --app-init-delay 10000",
     "build": "webpack --config build/webpack.prod.js",
-    "dev": "node build/server.js",
-    "app": "cross-env NODE_ENV=development electron app/",
-    "lint": "xo **/client/**/*.{vue,js} **/app/**/*.js !node_modules/**"
-  },
+    "dev": "node build/server.js"  },
   "author": "Matej Nemcek <ybdaba@gmail.com>",
   "license": "MIT",
   "xo": {
@@ -36,12 +33,6 @@
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.23.1",
     "cross-env": "^2.0.0",
-    "electron-devtools-installer": "^2.0.1",
-    "electron": "^1.4.2",
-    "xo": "^0.18.0",
-    "eslint-config-vue": "latest",
-    "eslint-plugin-vue": "latest",
-    "eslint-plugin-testcafe": "^0.2.0",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "file-loader": "^0.9.0",

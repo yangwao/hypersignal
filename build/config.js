@@ -6,7 +6,7 @@ module.exports = {
   title: 'hypersignal',
   // when you use electron please set to relative path like ./
   // otherwise only set to absolute path when you're using history mode
-  publicPath: './',
+  publicPath: '/',
   // disable babelrc by default
   babel: {
     babelrc: false,
@@ -20,5 +20,4 @@ module.exports = {
     }),
     require('postcss-nested')
   ],
-  electron: true,
 }
