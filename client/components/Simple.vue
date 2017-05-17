@@ -24,11 +24,11 @@ export default {
   data () {
     return {
       zoom:11,
-      center: L.latLng(48.1389601,17.0878431),
+      center: L.latLng(48.1455471,17.1084603),
       url:'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       circle: {
-        center: L.latLng(48.1389601,17.0878431),
+        center: L.latLng(48.1455471,17.1084603),
         radius: 5000
       }
     }
