@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map-inner" style="height: 80%">
-        {{ center.lat }}, {{ center.lng }}
+        Progressbar is located at {{ center.lat }}, {{ center.lng }}
       </br>
       <v-map style="height: 40%" :zoom="zoom" :center="center">
         <v-tilelayer :url="url" :attribution="attribution"></v-tilelayer>

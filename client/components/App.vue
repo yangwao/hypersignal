@@ -7,7 +7,7 @@
 <style>
 body {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                helvetica, 'helvetica neue',
@@ -19,7 +19,7 @@ body {
   text-align: center;
   /* nesting for the need to test postcss */
   code {
-    background-color: grey;
+    background-color: ghostwhite;
     padding: 3px 5px;
     border-radius: 2px;
   }
