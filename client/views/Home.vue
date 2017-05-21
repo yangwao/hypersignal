@@ -7,7 +7,8 @@
                     NLP, Tensorflow
                     More distributed technologies (SSB, Kappa Arch, Hyperlog, IPFS,...)
                     MerkleDag approach, Hyperlog
-                    GoLang
+                    GoLang, Rust
+                    And deliver more OSS
     </vue-markdown>
     <vue-markdown> ## 💬 Reach & follow me 🐈 </vue-markdown>
 
