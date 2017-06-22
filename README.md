@@ -1,6 +1,8 @@
 # hypersignal
 just random things
 
+# move to nuxt with static generated
+
 To start:
 
 ```bash
